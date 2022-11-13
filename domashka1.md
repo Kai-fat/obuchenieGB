@@ -7,15 +7,18 @@
 * <span style="color:#59afe1">git config --global user.name [*Твое имя*]
 
 * <span style="color:#59afe1">git config --global user.email [*Твой адрес*]
-* в поле терминала задаем <span style="color:#59afe1">git --version</span> (*если все ок вв терминале видим запись: git version 2.38.1.windows.1*)
+* в поле терминала задаем <span style="color:#59afe1">git --version</span> (*если все ок в терминале видим запись: git version 2.38.1.windows.1*)
 
 2. ### В проводнике создаем папку, которая будет нашим репозиторием
 
 * [*Имя папки*] 
-* В терминале набираем команду  <span style="color:#59afe1">git init</span> и программа делает нашу созданную папку репозиторием.
-* команда <span style="color:#59afe1">git status</span> покажет нам, что git думаето нашей папке.
+* В терминале набираем команду  <span style="color:#59afe1">git init</span> и программа делает нашу созданную папку репозиторием и начинает отслеживать все изминения.
+* команда <span style="color:#59afe1">git status</span> покажет нам, что git думаето нашей папке. если выдает **"On branch master" PS D:\obuchenie>** то все ок
 
 3. ### Создаем папку с расширением "md" (или любое другое)
+* Создаем какую нибудь запись.
 
 * Команда <span style="color:#59afe1"> git add [*имя файла.расширение*]</span> позволяет **git** начинать отслеживать внесенные изминения в наш файл.
+
+<span style="color:#59afe1"> git status</span> покажет нам что *git* начал отслеживать наши изминения
 * Команнда <span style="color:#59afe1">git commit -m "*Комментарий*"</span> позволяет зафиксировать текущий статус.
